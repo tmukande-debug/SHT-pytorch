@@ -16,4 +16,5 @@ Notes:
 4. You can use Google Colab to quickly review and run the code by uploading the <SHT_notebook.ipynb>. 
 5. The result is a little lower than the TF version (-0.002~-0.003). The reason might be the CUDA in pytorch is float.32. Please use .cuda() to set the Parameters.
 6. I modified the Learning rate from 1e-3 to 1.5e-3.
+7. There is a huge difference on performance if the parameters are not set with '.cuda()'.
 7. Happy coding.
