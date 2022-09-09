@@ -10,7 +10,7 @@ scipy=1.5.2
 
 Notes:
 
-1. Please run the <HCCF.py> for training.
+1. Please run the <SHT.py> for training.
 2. Please modify the data path in DataHandler.py for training.
 3. Please create a Folder named 'Model' under your current path for saving the results.
 4. You can use Google Colab to quickly review and run the code by uploading the <SHT_notebook.ipynb>. 
